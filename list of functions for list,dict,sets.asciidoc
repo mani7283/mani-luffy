@@ -1,0 +1,289 @@
++*In[1]:*+
+[source, ipython3]
+----
+l = ["oo","pp"]
+l.append("oip")
+print(l)
+----
+
+
++*Out[1]:*+
+----
+['oo', 'pp', 'oip']
+----
+
+
++*In[3]:*+
+[source, ipython3]
+----
+f = ["pp","oo","mm"]
+f.insert(1,"ee")
+print(f)
+----
+
+
++*Out[3]:*+
+----
+['pp', 'ee', 'oo', 'mm']
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+k1 = ["kk","l"]
+k2 = ["oo","ww"]
+k1.extend(k2)
+print(k1)
+----
+
+
++*Out[4]:*+
+----
+['kk', 'l', 'oo', 'ww']
+----
+
+
++*In[5]:*+
+[source, ipython3]
+----
+l = ["p","o"]
+l.remove("o")
+print(l)
+----
+
+
++*Out[5]:*+
+----
+['p']
+----
+
+
++*In[6]:*+
+[source, ipython3]
+----
+l = ["r","t"]
+l.pop()
+print(l)
+----
+
+
++*Out[6]:*+
+----
+['r']
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+k = ["1","2","3"]
+k.clear()
+print(k)
+
+----
+
+
++*Out[7]:*+
+----
+[]
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+j = [6,8,9,7,6,2,3,1]
+j.sort()
+print(j)
+----
+
+
++*Out[8]:*+
+----
+[1, 2, 3, 6, 6, 7, 8, 9]
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+j1 = ["55","66","44"]
+j2 = [1,22,33]
+j2 = j1.copy()
+print(j2)
+----
+
+
++*Out[9]:*+
+----
+['55', '66', '44']
+----
+
+
++*In[10]:*+
+[source, ipython3]
+----
+h = ["a","j","p"]
+h.reverse()
+print(h)
+----
+
+
++*Out[10]:*+
+----
+['p', 'j', 'a']
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+g = [5,4,6,45,5,4,5,8]
+i = g.count(5)
+print(i)
+----
+
+
++*Out[12]:*+
+----
+3
+----
+
+
++*In[13]:*+
+[source, ipython3]
+----
+a = ["55",66,"66"]
+z = a.index(66)
+print(z)             #list
+----
+
+
++*Out[13]:*+
+----
+1
+----
+
+
++*In[1]:*+
+[source, ipython3]
+----
+t = ("p","O","l")
+m =t.count("p")
+print(m)
+----
+
+
++*Out[1]:*+
+----
+1
+----
+
+
++*In[2]:*+
+[source, ipython3]
+----
+t = ("p","o","i")
+print(t.index("i"))   #tuple
+----
+
+
++*Out[2]:*+
+----
+2
+----
+
+
++*In[4]:*+
+[source, ipython3]
+----
+w = {"u" : "1","o" : "l","k" :"g"}
+s = {"c":"p","v":"v"}
+w = s.copy()
+print(w)
+----
+
+
++*Out[4]:*+
+----
+{'c': 'p', 'v': 'v'}
+----
+
+
++*In[7]:*+
+[source, ipython3]
+----
+s = {"o":"p","p":"i"}
+s.update({"k":"l"})
+print(s)
+----
+
+
++*Out[7]:*+
+----
+{'o': 'p', 'p': 'i', 'k': 'l'}
+----
+
+
++*In[8]:*+
+[source, ipython3]
+----
+s = {"p":"o","o":"i"}
+print(s.values())
+----
+
+
++*Out[8]:*+
+----
+dict_values(['o', 'i'])
+----
+
+
++*In[9]:*+
+[source, ipython3]
+----
+s = {"0":9,"9":8}
+print(s.keys())
+----
+
+
++*Out[9]:*+
+----
+dict_keys(['0', '9'])
+----
+
+
++*In[11]:*+
+[source, ipython3]
+----
+s = {"6":66,"4":44}
+print(s.items())
+----
+
+
++*Out[11]:*+
+----
+dict_items([('6', 66), ('4', 44)])
+----
+
+
++*In[12]:*+
+[source, ipython3]
+----
+s = {"l":11,"k":22}   #dictionary
+print(s.clear())
+----
+
+
++*Out[12]:*+
+----
+None
+----
+
+
++*In[ ]:*+
+[source, ipython3]
+----
+
+----
